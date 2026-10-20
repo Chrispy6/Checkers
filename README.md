@@ -2,10 +2,10 @@ CHECKERS
 
 ## Screenshots
 
-### Game board
+### Gameplay
 ![Checkers during play](ScreenShots/Gameplay.png)
 
-### Gameplay
+### End of Game
 ![Checkers game end](ScreenShots/Game_End.png)
 
 PROBLEM DESCRIPTION
