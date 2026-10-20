@@ -3,10 +3,10 @@ CHECKERS
 ## Screenshots
 
 ### Game board
-![Checkers board](ScreenShots/Gameplay.png)
+![Checkers during play](ScreenShots/Gameplay.png)
 
 ### Gameplay
-![Checkers during play](ScreenShots/Game End.png)
+![Checkers game end](ScreenShots/Game_End.png)
 
 PROBLEM DESCRIPTION
 A simple two‑player checkers game written in C++ that opens a graphical 8 × 8 board with SFML, lets two players click pieces to move and capture, 
