@@ -22,6 +22,8 @@ struct Piece {
 class CheckersGame
 {
 public:
+    CheckersGame(const CheckersGame&) = delete;
+    CheckersGame& operator=(const CheckersGame&) = delete;
     CheckersGame(); // Constructor
     ~CheckersGame(); // deconstructor
 

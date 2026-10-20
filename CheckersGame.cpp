@@ -70,6 +70,8 @@ void CheckersGame::reset()
 
     redTurn = true;
     pieceSelected = false;
+    gameOver = false;
+    winner.clear();
     moves.clear();
 }
 
@@ -82,9 +84,15 @@ bool CheckersGame::inside(int r,int c) const
 // converts pixel position to tile position
 bool CheckersGame::pixelToSquare(int px,int py,int &row,int &col) const
 {
+    if (px < PAD || py < PAD ||
+        px >= PAD + 8 * TILE ||
+        py >= PAD + 8 * TILE) {
+        return false;
+    }
+
     col = (px - PAD) / TILE;
     row = (py - PAD) / TILE;
-    return inside(row,col);
+    return true;
 }
 
 //checks if player can select on this row and column
