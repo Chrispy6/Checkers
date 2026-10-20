@@ -1,5 +1,13 @@
 CHECKERS
 
+## Screenshots
+
+### Game board
+![Checkers board](ScreenShots/Gameplay.png)
+
+### Gameplay
+![Checkers during play](ScreenShots/Game End.png)
+
 PROBLEM DESCRIPTION
 A simple two‑player checkers game written in C++ that opens a graphical 8 × 8 board with SFML, lets two players click pieces to move and capture, 
 promotes kings, keeps turn order, and logs every move. The goal is to demonstrate class design, basic list usage, file I/O, and use of SFML.
